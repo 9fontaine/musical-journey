@@ -223,6 +223,22 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+ul.iconalign{
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+li.ic09{
+  width:127px;
+  height:127px;
+  background-color:#ccc111;
+  margin-left:12px;
+  border:1px inset #fff;
+  float:left;
+}
+li.ic09{
+  background-color:#cccEEE;
+}
 /* Links
    a, a:hover, a:visited
 */

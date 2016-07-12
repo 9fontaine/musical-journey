@@ -16,6 +16,17 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
+.ije{
+width:345px;
+height:139px;
+margin-top:19px;
+border:2px inset #278EF3;
+color:#FFF;
+font-family:tahoma;
+font-size:1.4em;
+background-color:#211236;
+border-radius: 10px;
+}
 .clear{
   margin-top:-23px;
 }

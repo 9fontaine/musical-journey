@@ -245,15 +245,13 @@ ul.iconalign{
 li.ic09{
   width:52px;
   height:52px;
-  background-color:#cc5691;
+  background-color:#c2730E;
   margin-left:28px;
   border:1px inset #fff;
   float:left;
   border-radius: 10px;
 }
-li.ic09{
-  background-color:#c2730E;
-}
+
 /* Links
    a, a:hover, a:visited
 */

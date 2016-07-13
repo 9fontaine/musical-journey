@@ -93,6 +93,7 @@ header h2 {
 
 #main_content {
   width: 100%;
+  padding-left:4px;
   -webkit-font-smoothing: antialiased;
 }
 section img {

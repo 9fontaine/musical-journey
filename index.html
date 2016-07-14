@@ -31,7 +31,7 @@
 width="2" height="0">
 </embed>
       <div class="clear"><hr><ul class="iconalign">
-        <li class="ic09" style="margin-left:12px;background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png');background-position:5% 20%;"><a href="#">un</a></li>
+        <li class="ic09" id="txtlog" style="margin-left:12px;background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png');background-position:5% 20%;"><a href="#">un</a></li>
         <li class="ic09" style="margin-left:32px;background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png');background-position:25% 10%;">dos</li>
         <li class="ic09" style="margin-left:32px;background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png');background-position:35% 20%;">tre</li>
         <li class="ic09" style="background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png')"><a href="#">un</a></li>
@@ -41,7 +41,16 @@ width="2" height="0">
    <li class="ic09" style="margin-left:32px;margin-top:12px;background-image: url('http://9fontaine.github.io/musical-journey/images/SnapShot_160207_111928.png');background-position:70% 50%;"><a href="#">un</a></li>
    </ul></div><br>
    <hr>
-  
+      <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+     /* $("#includedContent").load("http://9fontaine.github.io/eugenio/divcontent.htm"); */
+    });
+    $("#txtlog").click(function(){
+         $("#includedContent").load("http://9fontaine.github.io/eugenio/divcontent2.htm"); 
+      
+    });
+    </script>
     </header>
 
     <div class="container" style="border:1px inset #1946EF;">

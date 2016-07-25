@@ -172,7 +172,7 @@ pre {
   font-size: 14px;
   color: #b5e853;
   border-radius: 2px;
-  -moz-border-radius: 2px;
+  -moz-border-radius: 2px; 
   -webkit-border-radius: 2px;
   text-wrap: normal;
   overflow: auto;

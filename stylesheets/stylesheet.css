@@ -246,7 +246,7 @@ ul.iconalign{
 }
 li.ic09{
   width:52px;
-  height:22px;
+  height:16px;
   background-color:#FF730E;
   margin-left:28px;
   border:1px inset #fff;
@@ -261,7 +261,7 @@ li.ic09{
   background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
 }
 .ic09:hover {
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(135, 135, 135, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  background: -webkit-linear-gradient(top, rgba(240, 240, 240, 0.6), rgba(135, 135, 135, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 /* Links
    a, a:hover, a:visited

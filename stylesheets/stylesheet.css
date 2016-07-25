@@ -222,7 +222,7 @@ hr {
 }
 
 .btn:hover {
-background: -webkit-linear-gradient(top, rgba(170, 140, 140, 0.7), rgba(35, 35, 35, 0.7) 100%, rgba(160, 110, 90, 0.7) 100%, rgba(0, 0, 0, 0.3));
+background: -webkit-linear-gradient(top, rgba(170, 140, 140, 0.7), rgba(35, 35, 35, 0.7) 90%, rgba(160, 110, 90, 0.7) 90%, rgba(0, 0, 0, 0.3));
   }
 
 .btn .icon {

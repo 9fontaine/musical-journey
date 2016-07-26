@@ -37,6 +37,12 @@
         <li class="ic09" id="domico0" style="background-color:#4523EF"><a href="#">retour</a></li>
   </ul></div><br>
    <hr>
+   <script>
+     myFunction(){
+document.getElementById("demo").innerHTML = "paragraph changed";
+return();
+};
+   </script>
  <script src="jquery.js"></script>  
 <script>/*
 $(function(){
@@ -44,10 +50,6 @@ $(function(){
 $("#includedContent").load("https://9fontaine.github.io/musical-journey/addContent.htm"); 
 });*/
 
-myFunction(){
-document.getElementById("demo").innerHTML = "paragraph changed";
-return;
-};
 $("#txtlog").click(function(){
 
  $("#includedContent").load("https://9fontaine.github.io/musical-journey/addContent.htm"); 
@@ -80,7 +82,7 @@ Veuillez nous excuser pour cette interuption momentanée de l'image
 
 
   <p id="demo">A Paragraph.</p>
-<input type="button" onclick="myFunction()">Try it</input>
+<button onclick="myFunction()">Try it</button>
 <script src="/javascripts/myScript.js"></script> 
 <pre>
 Une simple demande vous permettras

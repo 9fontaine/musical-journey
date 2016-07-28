@@ -80,6 +80,38 @@ $("#domico3").click(function(){
  $("#includedContent").load("https://9fontaine.github.io/musical-journey/addContent3.htm");
 /* $("#includedContent").load("https://9fontaine.github.io/musical-journey/index.html#"); */
 });
+
+/*----------------------------------------------------------------------------------*/
+/*                  */
+var imgs = ["http://9fontaine.github.io/eugenio/archives001/lejardinduluxembourg.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/batadministratifparis.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/bpikleeexpo.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/jubile2016.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/lejardindusenat.jpg",]
+var cnt = imgs.length;
+var txts = ["uno",
+	    "dos",
+	    "tres",
+	    "quatro",
+	    "cinquo",]
+var cntx = txts.length;
+$(function() {
+        setInterval(Slider, 5000);
+});
+function Slider() {
+//	alert((imgs.length)%cnt);
+    $("#imageSlide").show("fast", function() {
+       $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
+       var inxs = ((imgs.length)%cnt);
+//    var   imgtx = txts[inxs];
+$("#intox").html('<span >' + (txts[inxs]) + '</span>');
+});
+} 
+$(".btn_close").click(function(){
+$(".popup_name").hide();
+$(".oji").css({"background-color": "#49498e"});
+//$(".oji a").css({"color": "#EEE"});
+});
     </script>
     </header>
 
@@ -94,7 +126,10 @@ Veuillez nous excuser pour cette interuption momentanée de l'image
 
   <p id="demo">A Paragraph.</p>
 <button onclick="javascript:myction()">Try it</button>
-
+<p class="image" style="background-color:hsl(220,70%,37%);">
+<img id="imageSlide" alt="" src="http://9fontaine.github.io/eugenio/archives001/lejardindusenat.jpg" width="683px" height="283px"/> 
+<span class="commentaires" id="intox" style="color:#FFF;font-family:Palatino Linotype;">unick</span>
+</p>
 <pre>
 Une simple demande vous permettra
 une utilisation personnelle de ces

@@ -18,12 +18,48 @@
       <br>
       <div >selection des sites</div>
       <h1>programme du jour</h1>
+      <img id="imageSlide" alt="" src="http://9fontaine.github.io/eugenio/archives001/lejardindusenat.jpg" width="683px" height="283px"/> 
+<span class="commentaires" id="intox" style="color:#FFF;font-family:Palatino Linotype;">unick</span>
 <p>
 <h4>Photographies </H4>
 <H6>Provinciales découvertes</H6>
 <p id="p56">Original box </p>
 </p>
 <br>
+<script>
+var imgs = ["http://9fontaine.github.io/eugenio/archives001/lejardinduluxembourg.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/batadministratifparis.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/bpikleeexpo.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/jubile2016.jpg",
+            "http://9fontaine.github.io/eugenio/archives001/lejardindusenat.jpg",]
+var cnt = imgs.length;
+var txts = ["uno",
+	    "dos",
+	    "tres",
+	    "quatro",
+	    "cinquo",]
+var cntx = txts.length;
+$(function() {
+        setInterval(Slider, 5000);
+});
+function Slider() {
+//	alert((imgs.length)%cnt);
+    $("#imageSlide").show("fast", function() {
+       $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
+       var inxs = ((imgs.length)%cnt);
+//    var   imgtx = txts[inxs];
+$("#intox").html('<span >' + (txts[inxs]) + '</span>');
+});
+} 
+$(".btn_close").click(function(){
+$(".popup_name").hide();
+$(".oji").css({"background-color": "#49498e"});
+//$(".oji a").css({"color": "#EEE"});
+});
+/*<p >Nous vous convions a une rétrospective en image.Le site met en place un caroussel ainsi qu'un grand nombre de photographie originale classées par ordre nominatif.</p>
+<p class="image" style="background-color:hsl(220,70%,37%);">*/
+ 
+    </script>
 <style>
 #p56 {background-color:hsl(590,60%,70%);
       border:2px inset #d1dffa;

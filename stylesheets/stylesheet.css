@@ -30,6 +30,10 @@ border-radius: 10px;
 .clear{
   margin-top:3px;
 }
+#demo{
+  padding-top:-12px;
+  
+}
 section {
   display: block;
   margin: 0 0 20px 0;

@@ -27,28 +27,28 @@
 </p>
 <br>
 <script>
-var imgs = ["http://9fontaine.github.io/musical-journey/images/jrdlux.jpg",
+var imgs1 = ["http://9fontaine.github.io/musical-journey/images/jrdlux.jpg",
              "http://9fontaine.github.io/musical-journey/images/luxparc2.jpg",
              "http://9fontaine.github.io/musical-journey/images/rivoli.jpg",
              "http://9fontaine.github.io/musical-journey/images/jardlux.jpg",
             "http://9fontaine.github.io/musical-journey/images/jubile2016.jpg",]
-var cnt = imgs.length;
-var txts = ["le jardin du luxembourg",
+var cnt = imgs1.length;
+var txts1 = ["le jardin du luxembourg",
 	    "batiment du quai",
 	    "luxembourg",
 	    "le senat",
 	    "jardin du luxembourg",]
-var cntx = txts.length;
+var cntx = txts1.length;
 $(function() {
         setInterval(Slider, 5000);
 });
 function Slider() {
 //	alert((imgs.length)%cnt);
     $("#imageSlide").show("fast", function() {
-       $(this).attr("src", imgs[(imgs.length++) % cnt]).show();
-       var inxs = ((imgs.length)%cnt);
+       $(this).attr("src", imgs1[(imgs1.length++) % cnt]).show();
+       var inxs1 = ((imgs1.length)%cnt);
 //    var   imgtx = txts[inxs];
-$("#intox").html('<span >' + (txts[inxs]) + '</span>');
+$("#intox").html('<span >' + (txts1[inxs1]) + '</span>');
 });
 } 
 $(".btn_close").click(function(){
